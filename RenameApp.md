@@ -24,7 +24,7 @@ Certain ideas that are implemented throughout the design. There is a lot of reus
 
 ### Select Files
 
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Select.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Select.png">  
 
 **Overview**  
 This interface will be what the user sees when they start the application. 
@@ -59,7 +59,7 @@ Interface Layout:
 *	The dashboard is split into two sections, a filename builder that stays in a fixed position in every menu navigation item in rename except for preview, and a section for draggable elements configuration and creation. This provides a clear distinction in the user’s mind as well as a subconscious understanding that there is an upload flow of content from bottom to top.  
 
 **main rename window**
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Main%20Rename%20Window.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Main%20Rename%20Window.png">  
 
 The first screen opens automatically on the editor where you can remove characters from the existing file names by hovering over the characters and clicking on the “garbage bin” icon or the information icon that will display a pop up which will have information about the usage of the characters. There is also a general (information) icon that explains the usage of current screen, which will prevent our users from making obvious mistakes.
 
