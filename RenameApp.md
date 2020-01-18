@@ -69,12 +69,12 @@ The user is able to use the navigation menu by clicking on the “>” on the bo
 Usage explanation based on a case: if the user decides to remove the 3rd character in all the files, they need to hover over “L” and click the “garbage bin” icon. The 3rd character in files would start counting from the left side. If a file has a name that is shorter than 3 characters then no characters will be removed. If file name consists only of one character and the first character was asked to be removed by the user, then the file will remain unchanged since the file cannot be without a name.
 
 **Filename minimized pane’s “New” tab and disabled button**  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Main%20Rename%20Window%20%E2%80%93%20New%20preview.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Main%20Rename%20Window%20%E2%80%93%20New%20preview.png">  
 
 As shown on the image above the “Filename” section on the right has a preview of the selected original files and the tab can be switched to the New to preview the changes. If no changes were done yet the user will not be able to click the save button as shown on the image above.
 
 **Rename based on input string**  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/String.png">    
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/String.png">    
 
 Once the navigation slide is open, the “Filename” window on the right is hiding. As shown on the image above the user selects the string editor tab from the navigation menu. 
 
@@ -84,7 +84,7 @@ The user is able to add a string to the file name by dragging the element with t
 The user can close the navigation menu to bring back the preview on the right side or the user can click on the preview button that is seen on the screenshot above to open a new full preview window as seen on the image below.
 
 **Rename preview window**
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Preview.png">    
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Preview.png">    
 
 From the preview window the user can save the results if he is satisfied, or click on the grey “<” button on the top to go back to the last editing option so if the user clicked preview from the string editor that's where the back button will take the user.
 
@@ -94,7 +94,7 @@ The idea is to have the upper and lower sections of the window independent from 
 
 
 ### Arbitrary numeric sequences  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Incrementing%20number.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Incrementing%20number.png">  
 
 Once the user clicks on the Numeric Seq. in the navigation menu, the lower section of the window where the editing happens is changed to display different editing options as shown on the screenshot above. Since this feature requires some explanation, there is an “i” icon beside each field to give user more information on how to use each field. 
 “Start Number” (i) - Please enter a number that you would like to start the sequence at(Mandatory).
@@ -105,7 +105,7 @@ Since the program is very forgiving and any changes can be easily undone, it wil
 
 
 ### GPS Information  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/GPS.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/GPS.png">  
 
 If the user selects GPS information from the navigation bar, the lower section of the window where the editing happens is changed to display different editing options related to GPS information.
 
@@ -117,7 +117,7 @@ If the element “Country” is dragged between characters “L” and “E” a
 If Latitude or Longitude was applied to the filename and either of the values is corrupted for a specific file, that file will remain unchanged and an information window will inform the user by the end of the process that a certain file name was not changed.
 
 ### Parts of Original Names  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Original%20Name.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Original%20Name.png">  
 
 The user can use parts of the original file to rename the file. Navigating to “Original Name” on the side menu reveals the pane shown above.
 The section titled “Filename Builder” works the same way as in other panes of the Rename side menu.  
@@ -125,7 +125,7 @@ In the section titled “Original Filename Parts” the user can drag and drop c
 The user can also click on the "Information" icon next to “Original Filename Parts” to get a simple explanation of the pane.
 
 ### Using Capture groups
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Capture%20Groups.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Capture%20Groups.png">  
 
 The user can also use parts of the original file captured in the selection regex capture groups to rename the file. Navigating to “Capture groups” on the side menu reveals the pane shown above.  
 The section titled “Filename Builder” works the same way as in other panes of the Rename side menu.  
@@ -133,7 +133,7 @@ In the section titled “Regex Capture Groups” the user can drag and drop elem
 The user can also click on the "Information" icon next to “Regex Capture Groups” to get a simple explanation of the pane.
 
 ### File Metadata  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/File%20Data.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/File%20Data.png">  
 
 The user can use a file’s properties such as last modified date, size etc. to rename the file. Navigating to “File data” on the side menu reveals the pane shown above.  
 The section titled “Filename Builder” works the same way as in other panes of the Rename side menu.  
@@ -141,7 +141,7 @@ In the section titled “File Data (Meta data)” the user can drag and drop ele
 The user can also click on the "Information" icon next to “File Data (Meta data)” to get a simple explanation of the pane.
  
 ### Renaming date  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Current%20Date%20%E2%80%93%201.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Current%20Date%20%E2%80%93%201.png">  
 
 The user can use the renaming date and time properties such as day, month etc. to rename the file. Navigating to “Date” on the side menu reveals the pane shown above.  
 The section titled “Filename Builder” works the same way as in other panes of the Rename side menu.  
@@ -149,7 +149,7 @@ In the section titled “Renaming Time and Date” the user can drag and drop el
 The user can also click on the "Information" icon next to “Renaming Time and Date” to get a simple explanation of the pane.  
  
 **Filename builder with an element inserted**
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Current%20Date%20%E2%80%93%201.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Current%20Date%20%E2%80%93%201.png">  
 
 When an element is dragged to the filename builder, as the user moves it between characters, the existing string of characters part. Dropping the element at that point sets it in place and that element is now going to be used for renaming. The original element is recreated when an element is dragged away from its position in the bottom pane.  
 Just like the characters in the original string, you can click on individual elements to see a tooltip with two actions (delete and information). The user can also drag the elements away to unset it from the filename builder and follow the same process as bringing an element into the filename builder. Dropping an element anywhere other than in between the characters/elements of the filename will make it disappear.  
@@ -161,13 +161,13 @@ The last step is saving your progress. After users click the save button in rena
 The applications use pop-up window to deal with the saving process. The reason is that the pop windows can grab users attention easily and inform the user about the current progress. 
  
 **Save window**  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Save.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Save.png">  
 
 ### Work In Progress
 When user clicks the save button, a pop window showing the percentage of the progress will show up. Users are still be able to cancel the progress by clicking the cancel button at the bottom of the pop up window. It will rollback all the works which have been done so far, and bring back users to the previous screen.
    
 **Saving progress feedback popup**  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Work%20in%20Progress.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Work%20in%20Progress.png">  
 
 
 **Conflict**  
@@ -175,20 +175,20 @@ When a file already exists in the destination directory, the pop up window will 
 Skipping file will not replace the current file and keep doing the renaming. Canceling rename will bring the user back to the previous screen and undo any changes made in the file system. There is a check box which will let users do the same option for the rest naming. When user finish the selection, users can click the done button which will let the system do the background work.
   
 **File already exists pop-up**  
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/File%20name%20already%20exists.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/File%20name%20already%20exists.png">  
 
 
 **Invalid file**  
 If the background meets some files with an invalid value during the renaming process, a window will pop up showing the error message and it will also let user decide what to do with that file. Users can open the corrupted file in the file explorer, skip the file altogether or cancel the renaming process altogether.
    
 **File has invalid value pop-up**
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Invalid%20longitude%20value.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Invalid%20longitude%20value.png">  
 
 **Complete page**    
 When all the renaming progress are done at the background, the pop up window will show up telling users that the work is done and saved . There are two options for the popup. The done button will bring user back to the select page and user will be able to start another work load. And the second option is open in explorer, which will open the windows file explorer.
 
 **File rename complete pop-up**
-<img src="https://github.com/RomanKantor89/UI-UX/blob/master/Rename%20App/images/Successfully%20renamed.png">  
+<img src="https://github.com/RomanKantor89/Rename_App/blob/master/images/Successfully%20renamed.png">  
 
 
 
